@@ -1,0 +1,38 @@
+{
+  "name": "frontmidplatform",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@types/node": "^22.3.0",
+    "@vueuse/core": "^10.11.1",
+    "axios": "^1.7.4",
+    "element-plus": "^2.8.0",
+    "file-saver": "^2.0.5",
+    "gsap": "^3.12.5",
+    "pinia": "^2.2.1",
+    "pinia-plugin-persistedstate": "^3.2.1",
+    "tailwind-scrollbar": "^3.1.0",
+    "vue": "^3.4.35",
+    "vue-lazyload": "^3.0.0",
+    "vue-router": "^4.4.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "autoprefixer": "^10.4.20",
+    "less": "^4.2.0",
+    "postcss-import": "^16.1.0",
+    "sass-embedded": "^1.77.8",
+    "tailwindcss": "^3.4.10",
+    "unplugin-auto-import": "^0.18.2",
+    "unplugin-vue-components": "^0.27.4",
+    "vite": "^5.4.0",
+    "vite-plugin-svg-icons": "^2.0.1"
+  }
+}
